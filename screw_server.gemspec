@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.add_dependency("bundler", SCREW_SERVER_BUNDLER_VERSION)
 
   # sinatra and dependencies
-    s.add_dependency("rack", "= 1.1.0")
+    s.add_dependency("rack", "~> 1.4.0")
   s.add_dependency("sinatra", "= 1.0")
 
   # thin and dependencies
